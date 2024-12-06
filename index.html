@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genera QR </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Genera y descarga tu QR personalizado</h1>
+        <input type="text" id="textInput" placeholder="Escribe lo que desees convertir en QR" />
+        <button id="generar">Generar QR</button>
+        <button id="descarga">Descargar QR</button>
+
+        <canvas id="qrCode" width="200" height="200" style="border: 1px solid rgb(0, 0, 0);"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
