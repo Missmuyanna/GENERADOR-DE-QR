@@ -82,3 +82,39 @@ button:hover {
 #descarga:hover {
     background-color: #101010;
 }
+
+
+
+/* Ajustes para pantallas pequeñas (tablets y celulares) */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 20px auto; /* Centra el contenedor */
+        padding: 20px; /* Reduce el padding */
+        width: 90%; /* Asegura que ocupe casi todo el ancho */
+    }
+
+    input, button, #descarga {
+        font-size: 14px; /* Reduce el tamaño del texto */
+        padding: 8px; /* Reduce el padding */
+    }
+
+    #qrCode {
+        max-width: 100%; /* Asegura que el canvas no se desborde */
+        border-radius: 10px; /* Reduce el radio de las esquinas */
+    }
+}
+
+/* Ajustes para pantallas aún más pequeñas (celulares pequeños) */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 18px; /* Reduce el tamaño del título */
+    }
+
+    input, button, #descarga {
+        font-size: 12px; /* Ajusta el tamaño del texto */
+    }
+
+    #qrCode {
+        margin: 10px auto; /* Asegura que el canvas esté centrado */
+    }
+}
