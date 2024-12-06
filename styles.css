@@ -26,7 +26,7 @@ input {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #ffffff;
-    border: 0.5px solid #3b0549cc;
+    border: 0.5px solid #7f3793cc;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -49,6 +49,7 @@ button:hover {
 
 #qrCode {
     margin-top: 20px;
+    color: white;
     border-radius: 50px;;
 }
 
