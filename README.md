@@ -22,7 +22,7 @@ Además, incluye la opción de descargar el código QR generado como una imagen 
 
 ## Aquí les muestro como se vería
 
-(images/captura.png)
+![](images/captura.png)
 
 ## Mejoras Planeadas
 
@@ -41,4 +41,4 @@ Este proyecto utiliza la librería QRCode.js, bajo licencia MIT.
 Este proyecto está protegido por derechos de autor. Para consultas, contacta conmigo directamente. fabiannajulio@gmail.com
 
 ## Gracias <3
-(images/logo.png)
+![](images/logo.png)
