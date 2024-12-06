@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('images/fondo.png');
+    background-image: url('images/fondologo.jpg');
     background-size: cover; /* Cubre todo el viewport */
     background-repeat: no-repeat; /* No repite la imagen */
     background-position: center center; /* Centra la imagen */
