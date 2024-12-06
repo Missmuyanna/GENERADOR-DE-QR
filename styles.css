@@ -85,36 +85,36 @@ button:hover {
 
 
 
-/* Ajustes para pantallas pequeñas (tablets y celulares) */
+/* Ajustes para pantallas pequeñas*/
 @media screen and (max-width: 768px) {
     .container {
-        margin: 20px auto; /* Centra el contenedor */
-        padding: 20px; /* Reduce el padding */
-        width: 90%; /* Asegura que ocupe casi todo el ancho */
+        margin: 120px auto; 
+        padding: 7px; 
+        width: 90%; 
     }
 
     input, button, #descarga {
-        font-size: 14px; /* Reduce el tamaño del texto */
-        padding: 8px; /* Reduce el padding */
+        font-size: 14px; 
+        padding: 8px;
     }
 
     #qrCode {
-        max-width: 100%; /* Asegura que el canvas no se desborde */
-        border-radius: 10px; /* Reduce el radio de las esquinas */
+        max-width: 100%; 
+        border-radius: 10px; 
     }
 }
 
-/* Ajustes para pantallas aún más pequeñas (celulares pequeños) */
+/* Ajustes para pantallas aún más pequeñas*/
 @media screen and (max-width: 480px) {
     h1 {
-        font-size: 18px; /* Reduce el tamaño del título */
+        font-size: 18px; 
     }
 
     input, button, #descarga {
-        font-size: 12px; /* Ajusta el tamaño del texto */
+        font-size: 12px; 
     }
 
     #qrCode {
-        margin: 10px auto; /* Asegura que el canvas esté centrado */
+        margin: 10px auto; 
     }
 }
