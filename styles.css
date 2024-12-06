@@ -1,7 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #2b0c2b;
+    background-image: url('images/fondo.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
     margin: 0;
     padding: 0;
 }
@@ -9,10 +13,11 @@ body {
 
 .container {
     margin: 50px auto;
+    margin-left: 440px; 
     padding: 20px;
-    width: 50%;
+    width: 30%;
     max-width: 400px;
-    background: #5a4159b8;
+    background: #5a4159d7;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
